@@ -1,0 +1,93 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.worldcustom {
+  color: rgb(12, 243, 0);
+}
+
+main {
+  background-image: url(../img/gato2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.butt {
+  display: grid;
+  place-items: center;
+  min-height: 800px;
+  padding-top: 500px;
+}
+.butt button {
+  margin: 0 80px 0 80px;
+  height: 50px;
+  border-radius: 10px;
+  width: 200px;
+  background: black;
+  color: aquamarine;
+  border: solid 1px rgba(75, 254, 206, 0.745);
+  font-size: 20px;
+}
+
+.butt button:hover {
+  background-color: aquamarine;
+  color: black;
+  border: solid 5px rgb(18, 18, 18);
+}
+
+footer {
+  background-color: black;
+  display: flex;
+}
+
+.iconcustom {
+  margin: 0 15px 0 15px;
+  color: rgb(220, 220, 220);
+  font-size: 34px;
+}
+
+.picon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.picon p {
+  color: white;
+  font-size: 20px;
+}
+.espacio {
+  width: 50px;
+}
+
+.iconcustom:hover {
+  color: aquamarine;
+}
+
+@media (max-width: 1180px) {
+  .butt button {
+    margin: 60px;
+    font-size: 16px;
+    width: 160px;
+  }
+  .butt {
+    padding-top: 400px;
+  }
+}
+
+@media (max-width: 750px) {
+  .butt button {
+    margin: 0;
+    font-size: 16px;
+  }
+}
